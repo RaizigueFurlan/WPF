@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"  content="Raizigue Furlan de Oliveira Silva">
+    <meta name="keywords " content="Loja, Informatica" >
+    <meta name="discription" content="Loja de informática" >
+    <link rel="stylesheet" href="Style.css">
+
+
+    <title> Cadasto</title>
+</head>
+<body>
+
+  <header> 
+    <div class="Logo " ></div>
+    <ul>
+      <a href="idex.html" class="button">Home</a>
+      <a href="cadastro.html" class="button">Cadastrar</a>
+      <a href="fale.htm" class="button">Fale</a>
+    </ul>
+</header>
+
+<br>
+<br>
+  
+    <form action="dados_cadastro.php">
+        <fieldset class="List1" >
+      
+          <legend>
+            <h3>Dados pessoais </h3>
+          </legend>
+          
+ <br>
+            <p>
+                <label for="nome"> Nome:</label>
+                <input type="text" name="nome" id="nome" > 
+            </p>
+            
+ <br>
+           <p>
+              <label for="Sobrenome"> Sobrenome:</label>
+              <input type="text" name="Sobrenome" id="Sobrenome" > 
+           </p>
+      
+         <strong>Sexo</strong>
+         <dl>
+             <dd>
+                 <select name="sexo" size="1">
+                    <OPtion value=""> selecione</OPtion>Selecione
+                    <option value="">Feiminino</option>Feiminino
+                    <option value="">Masculino</option>Masculino
+                    <option value="">Outro</option>Outro
+                   </select>
+             </dd>  
+         </dl> 
+
+         <br>
+         <p>
+          <strong>Estado</strong>
+            <dl>
+                <dd>
+                    <select name="secao" size="1">
+                       <OPtion value=""> selecione</OPtion>Selecione
+                       <option value="">Acre</option>
+                       <option value="">Alagoas</option>
+                       <option value="">Amapá</option>
+                       <option value="">Amazonas</option>
+                       <option value="">Bahia</option>
+                       <option value="">Ceará</option>
+                       <option value="">Espírito Santo</option>
+                       <option value="">Goiás</option>
+                       <option value="">Maranhão</option>
+                       <option value="">Mato Grosso</option>
+                       <option value="">Mato Grosso do Sul</option>
+                       <option value="">Minas Gerais</option>
+                       <option value="">Pará</option>
+                       <option value="">Paraíba</option>
+                       <option value="">Paraná</option>
+                       <option value="">Pernambuco</option>
+                       <option value="">Piauí</option>
+                       <option value="">Rio de Janeiro</option>
+                       <option value="">Rio Grande do Norte</option>
+                       <option value="">Rio Grande do Sul</option>
+                       <option value="">Rondônia</option>
+                       <option value="">Roraima</option>
+                       <option value="">Santa Catarina</option>
+                       <option value="">São Paulo</option>
+                       <option value="">Sergipe</option>
+                       <option value="">Tocantins</option>
+                       <option value="">Distrito Federal</option>
+                      </select>
+                </dd>
+            </dl> 
+       </p>
+        
+ <br>
+       <p>
+        <label for="cidade"> Cidade:</label>
+        <input type="text" name="cidade" id="cidade" > 
+     </p>
+   
+ <br>
+         <p>
+          <label for="edereço"> Endereço:</label>
+          <input type="text" name="endereço" id="endereco" > 
+       </p>
+       
+ <br>
+       <p>
+        <label for="numero"> Numero:</label>
+        <input type="text" name="numero" id="numero" > 
+     </p>
+     
+ <br>
+     <p>
+      <label for="complememto"> complememto:</label>
+      <input type="text" name="complememto" id="complememto" > 
+   </p>
+
+   <br>
+   <p>
+    <label for="ceep">CEP   :</label>
+    <input type="text" name="ceep" id="ceep" > 
+   </p>
+   <br>
+        </fieldset>
+
+      <br>
+
+        <fieldset class="List2">
+
+          <legend>
+            <h3>Formulário de Opinião </h3>
+          </legend>
+
+          <br>
+           <strong>Oque vc achou do site?</strong>
+           <br>
+            <dl>
+              <dd>
+                 
+                  <input type="radio" name="avaliacao" value="muitobom" checked>Muito Bom
+                  <input type="radio" name="avaliacao" value="bom" checked>Bom
+                  <input type="radio" name="avaliacao" value="regular" checked>Regular
+                  <input type="radio" name="avaliacao" value="umlixo" checked>Um Lixo
+              </dd>
+            </dl>
+<br>
+
+                         <p>ja comprou algum produto em nosso site</p>
+                         <br>
+
+           <div>
+                <input type="checkbox" id="scales" name="scales" >
+          
+               <label for="scales">sim mais de 5 </label>
+           </div>
+
+            <div>
+               <input type="checkbox" id="horns" name="horns" >
+               <label for="horns">sim menos de 5 </label> 
+           </div>
+
+           <div>
+            <input type="checkbox" id="horns" name="horns" >
+            <label for="horns"> não</label> 
+        </div>
+
+        <div>
+          <input type="checkbox" id="horns" name="horns"  >
+          <label for="horns">nenhum das anteriores</label> 
+      </div>
+
+ 
+<br>
+
+             <p>
+                 <dl>
+                   <dd>
+                    <input type="submit" value="Enviar dados" >
+                    <input type="reset" value="Limpar formulário">
+                  </dd>
+                 </dl
+              </p>
+              <br>
+
+        </fieldset>
+      </form>    
+
+      <br>
+      
+      <header class=" H2"> 
+        <ul>
+            <h2 style="text-align: center;""></h2>
+         
+        </ul>
+    </header>
+</body>
+</html>

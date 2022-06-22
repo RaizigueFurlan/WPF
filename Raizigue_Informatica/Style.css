@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'roboto' , sans-serif; 
+background-color: white;
+
+}
+
+.Logo{
+    width: 42px;
+    height: 42px;
+    border: radius 100px; 
+    background-color: aqua;
+    margin: 10px ;
+
+}
+
+.h3{
+    padding-left: 3%;
+    position: left;
+}
+
+header{
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    box-shadow: 0 0 1rem black;
+    
+}
+
+
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+
+
+
+
+
+table    {
+    border: 16px solid;
+    border-color: rgb(255, 255, 255)  ;
+
+    background-color: rgb(255, 255, 255);
+    width: 100%; 
+  }
+ 
+.Form1{
+    text-align: center;
+    background-image: url(../Raizigue_Informatica/imagem/png.png);
+    background-repeat: no-repeat   ;
+    background-position: left top -95px;
+   
+}
+
+.List1{
+
+ background-image: url(../Raizigue_Informatica/imagem/png.png );  
+ background-repeat: no-repeat;
+ background-position: left;
+ background-position:   0px;
+  text-align:center;
+
+}
+.List2{
+    text-align:center;
+    list-style-type: s;
+  }
+
+.Div1{
+
+    background-image: url(../Raizigue_Informatica/imagem/logo.final2.png)  ;
+    background-repeat: no-repeat;
+    background-position: right top 20px;
+}
+
+.div3{
+text-align: center;
+padding-inline: 50px;
+}
+
+
+
+
+
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e24f0a;
+    color: white;}
+
+    .button {
+        background-color: #fd5d2c;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        padding: 20px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;  
+        font-size: 16px;
+        margin: 2px 2px;
+        cursor: pointer;
+      }
+
+      .button:hover{
+        background-color: #ee1c0d;
+        color: rgb(0, 0, 0);
+      }
+
+      li{
+        list-style-type: square;
+      }
+    
+    .H2{
+        height: 8vh;
+    }
